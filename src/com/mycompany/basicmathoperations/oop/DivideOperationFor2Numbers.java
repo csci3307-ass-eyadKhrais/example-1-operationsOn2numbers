@@ -18,7 +18,7 @@ public class DivideOperationFor2Numbers extends OperatorFor2numbers implements D
 		super(number1, number2);
 		System.out.println("parent number1 is" + super.number1);
 		System.out.println("class number2 is" + number1);	
-		Float somejunk = this.divide();
+		Float somejunk = this.divide2numbers();
 	};
 	
 	@Override
@@ -33,9 +33,9 @@ public class DivideOperationFor2Numbers extends OperatorFor2numbers implements D
 	}
 
 	@Override
-	public float divide() {
+	public float divide2numbers() {
 		// TODO Auto-generated method stub
-		return number1*number2;
+		return number1/number2;
 	}
 
 }
